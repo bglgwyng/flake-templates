@@ -1,7 +1,7 @@
 {
   outputs = _: {
     templates = {
-      default = {
+      haskell-simple = {
         path = ./haskell-simple;
       };
     };
