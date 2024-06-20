@@ -27,7 +27,6 @@
                 src = ./.;
                 supportHpack = true;
                 compiler-nix-name = "ghc965";
-                index-state = "2024-06-01T00:00:00Z";
                 shell.tools = {
                   cabal = "latest";
                   haskell-language-server = "latest";
