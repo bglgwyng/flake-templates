@@ -1,0 +1,17 @@
+packages: .
+
+constraints: reflex-dom +use-warp
+
+source-repository-package
+  type: git
+  location: git@github.com:alexfmpe/reflex-dom.git
+  tag: d7e04396d927bc98f988e9c3627f42c8fd750a03
+  subdir: reflex-dom
+  --sha256: 1rwgc4k2h4m0hbdx7h2z1slyhrslf1pn3qd6pbmapzy5f6xg920l
+
+source-repository-package
+  type: git
+  location: git@github.com:alexfmpe/reflex-dom.git
+  tag: d7e04396d927bc98f988e9c3627f42c8fd750a03
+  subdir: reflex-dom-core
+  --sha256: 1rwgc4k2h4m0hbdx7h2z1slyhrslf1pn3qd6pbmapzy5f6xg920l
