@@ -8,8 +8,12 @@ default-extensions:
   - RecursiveDo
   - DeriveGeneric
   - BlockArguments
+  - TypeFamilies
+  - FunctionalDependencies
+  - RecordWildCards
+  - ApplicativeDo
 dependencies:
-  - base ^>= 4.18
+  - base
 
 executables:
   app:
