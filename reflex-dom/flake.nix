@@ -31,7 +31,6 @@
                   cabal = "latest";
                   haskell-language-server = "latest";
                   hlint = "latest";
-                  stylish-haskell = "latest";
                   hpack = "latest";
                 };
               };

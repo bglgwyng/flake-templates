@@ -31,7 +31,6 @@
                   cabal = "latest";
                   haskell-language-server = "latest";
                   hlint = "latest";
-                  stylish-haskell = "latest";
                   hpack = "latest";
                 };
               };
@@ -43,7 +42,7 @@
         };
         flake = pkgs.${name}.flake { };
       in
-      (flake // rec {
+      (flake // {
         packages.default = flake.packages."${name}:exe:app";
       }));
 }
